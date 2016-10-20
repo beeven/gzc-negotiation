@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <dl>
+        <dt>Name</dt>
+        <dd>@ViewData["UserName"]</dd>
+    </dl>
+
+    <a asp-controller="Home" asp-action="About">About</a>
+</div>
